@@ -276,6 +276,14 @@ body {
 	.main-title-block {
 		margin-left: 24px;
 	}
+	.main-title {
+	color: #fff;
+	font-size: 2em;
+	}
+	.main-subtitle {
+	color: #fff;
+	margin-top: -18px;
+	}
 	.title-block {
 		margin-left: 24px ;
 		margin-right: 24px ;
@@ -295,6 +303,10 @@ body {
 	}
 	.process-block:last-child {
 		margin-right: 24px;
+	}
+	.service-block-wrapper {
+	margin-left: 24px;
+	margin-right: 24px;
 	}
 	.service-block {
 		margin-top: 18px;
