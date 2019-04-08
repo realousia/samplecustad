@@ -1,5 +1,9 @@
+@font-face {
+  font-family: 'Jalnan';
+  src: url('Jalnan.ttf') format('truetype');
+}
 * {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 html {
 	width: 100%;
@@ -129,7 +133,8 @@ body {
 .title-block {
 	padding-top: 72px;
 }
-.title {
+.title > p{
+	font-family: 'Jalnan', sans-serif;
 	font-size: 1.4em;
 	font-weight: 600;
 	color: #ffa600;
