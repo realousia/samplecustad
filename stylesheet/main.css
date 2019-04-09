@@ -103,6 +103,9 @@ body {
 #logof {
 	height: 28px;
 }
+#logom, #logofm {
+	display: none;
+}
 
 
 .content-wrapper {
@@ -257,16 +260,21 @@ body {
    	body {
    		min-width: 300px;
    	}
-	#logo {
+	#logom {
 		padding-left: 24px;
 		height: 24px;
 		padding-top: 8px;
+		display: block;
 	}
-	#logof {
+	#logofm {
 		height: 24px;
+		display: block;
+	}
+	#logo, #logof {
+		display: none;
 	}
 	.navs-right {
-		margin-top: -26px;
+		margin-top: -22px;
 		margin-right: 24px;
 	}
 	.navs-right > a {
